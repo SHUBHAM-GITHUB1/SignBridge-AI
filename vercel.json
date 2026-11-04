@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "client": {
+      "root": "client",
+      "framework": "vite"
+    },
+    "server": {
+      "root": "server",
+      "framework": "express",
+      "mount": "/api"
+    }
+  }
+}
